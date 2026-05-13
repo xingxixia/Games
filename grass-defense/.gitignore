@@ -1,0 +1,17 @@
+.venv/
+.conda-*/
+.conda-pkgs/
+__pycache__/
+*.py[cod]
+
+build/
+dist/
+
+ai_observation.png
+ai_state.json
+py_ai_observation.png
+py_ai_state.json
+exe_ai_observation.png
+exe_ai_state.json
+
+*.log

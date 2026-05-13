@@ -1,0 +1,5 @@
+[
+  {"type": "start_game"},
+  {"type": "place_plant", "plant": "sunflower", "row": 2, "col": 0},
+  {"type": "wait", "seconds": 1.0}
+]

@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "start_game",
+      "description": "Leave the start menu and begin wave spawning."
+    },
+    {
+      "type": "toggle_pause",
+      "description": "Pause or resume the game."
+    },
+    {
+      "type": "select_card",
+      "plant": "sunflower|peashooter|wallnut|snowpea|potatomine"
+    },
+    {
+      "type": "place_plant",
+      "plant": "sunflower|peashooter|wallnut|snowpea|potatomine",
+      "row": "0-4",
+      "col": "0-8"
+    },
+    {
+      "type": "use_shovel",
+      "row": "0-4",
+      "col": "0-8"
+    },
+    {
+      "type": "collect_sun",
+      "index": "visible sun index from state.suns"
+    },
+    {
+      "type": "click",
+      "x": "screen x",
+      "y": "screen y"
+    },
+    {
+      "type": "wait",
+      "seconds": "simulation seconds"
+    },
+    {
+      "type": "export_observation",
+      "path": "png output path"
+    }
+  ],
+  "notes": [
+    "Rows are top-to-bottom, columns are left-to-right.",
+    "The observation image is what a vision model should inspect.",
+    "The state JSON is a compact machine-readable helper, not hidden game logic for a player."
+  ]
+}

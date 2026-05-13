@@ -1,0 +1,9 @@
+name: gamedev310-local
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pygame
+      - pyinstaller
